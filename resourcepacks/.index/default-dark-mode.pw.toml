@@ -1,0 +1,17 @@
+filename = 'Default-Dark-Mode-1.21.6-2025.6.0.zip'
+name = 'Default Dark Mode'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2025.6.0-1.21.6'
+
+[download]
+hash = '0a64a73f9e6f367c01646b426a1372f9bb1068e2e381109ee86b60d430e0ddb00e74d7c5229b1ee2b51e99717b8c96c3153aa4cd1d6af1beae33e56dc1e83c21'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6SLU7tS5/versions/NQogl7Qf/Default-Dark-Mode-1.21.6-2025.6.0.zip'
+
+[update.modrinth]
+mod-id = '6SLU7tS5'
+version = 'NQogl7Qf'

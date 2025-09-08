@@ -1,0 +1,17 @@
+filename = 'voicemessages-fabric-1.0.9-1.21.7.jar'
+name = 'Voice Messages'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.0.9-1.21.7'
+
+[download]
+hash = 'd6c95f9f33cc880a6abe7c959342c8a8eec90b9c4f0527ccbace59c29dd9f903aee83b3a1563e0ad141fe2e75093ef6cd920166d844a54cf6e9c70212c6b09b5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WWLeFuHa/versions/kchvPhw1/voicemessages-fabric-1.0.9-1.21.7.jar'
+
+[update.modrinth]
+mod-id = 'WWLeFuHa'
+version = 'kchvPhw1'

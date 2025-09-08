@@ -1,0 +1,17 @@
+filename = 'LowOnFire v1.21.8§8.zip'
+name = 'Low On Fire'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5'
+
+[download]
+hash = 'c111873e1ea829f8661c0a6322973e51ee0117b8bfc3c6b3725dbb4b08de5ef9409c0b56f60bb62526c865401dc4c9c7698c094504e4dec9ddc72ed36cd8cac6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RRxvWKNC/versions/kFcenifC/LowOnFire v1.21.8§8.zip'
+
+[update.modrinth]
+mod-id = 'RRxvWKNC'
+version = 'kFcenifC'
