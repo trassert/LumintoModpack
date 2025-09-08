@@ -23,5 +23,5 @@
 ## Хочу добавить <название мода> в сборку!  
 
 По поводу добавления или удаления модов со сборки вы можете  
-1. Создать issues здесь  
-2. Обратиться в https://t.me/trassert_issues.  
+1. Создать **[issues](https://github.com/trassert/LumintoModpack/issues)** здесь  
+2. Обратиться в **[телеграм-чат](https://t.me/trassert_issues)**
