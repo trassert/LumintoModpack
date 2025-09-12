@@ -8,5 +8,10 @@ emotes
 downloads
 defaultconfigs
 coremods
+debug
+data
+.fabric
 
+command_history.txt
 servers.dat_old
+usercache.json
