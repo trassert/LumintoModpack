@@ -1,5 +1,4 @@
 texturepacks
-shaderpacks
 server-resource-packs
 screenshots
 saves
@@ -10,8 +9,14 @@ defaultconfigs
 coremods
 debug
 data
+libraries
+versions
 .fabric
 
 command_history.txt
 servers.dat_old
 usercache.json
+
+authlib-injector.log
+fabricloader.log
+instance.json
