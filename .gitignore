@@ -11,6 +11,8 @@ debug
 data
 libraries
 versions
+crash-reports
+cache
 .fabric
 
 command_history.txt
