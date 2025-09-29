@@ -20,6 +20,11 @@
   "showHiddenConfig": false,
   "exportBuiltin": false,
   "hideWarning": false,
-  "fastmenu": {},
+  "fastmenu": {
+    "0": {
+      "3": "931b2bda-a25e-4e55-957a-88c46f5e9a7b",
+      "4": "3045b335-12ca-4ddb-aca5-0aef450a5e4c"
+    }
+  },
   "keys": {}
 }
