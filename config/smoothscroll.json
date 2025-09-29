@@ -11,7 +11,9 @@
   },
   "Chat": {
     "Smoothness": 0.5,
-    "Opening Speed": 0.5
+    "Opening Speed": 0.5,
+    "Suggestion Smoothness": 0.5,
+    "Suggestion Speed": 30.0
   },
   "Creative Screen": {
     "Smoothness": 0.5
