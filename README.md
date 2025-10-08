@@ -1,11 +1,13 @@
 <div align="center">
 
-# Сборка для Minecraft 1.21.8
+# Сборка для Minecraft 1.21.10
+
+Это dev build, т.е. нестабильная сборка! Используй только если понимаешь что делаешь.
 
 **Luminto - Ванилла+ сервер майнкрафт с полуРП системой, своим вайбом и механиками.**
 
 [![Моды](https://img.shields.io/badge/Моды-46-orange?style=for-the-badge)](https://github.com/trassert/LumintoModpack)
-[![Версия](https://img.shields.io/badge/Minecraft-1.21.8-green?style=for-the-badge)](https://www.minecraft.net/)
+[![Версия](https://img.shields.io/badge/Minecraft-1.21.10-green?style=for-the-badge)](https://www.minecraft.net/)
 
 
 <img width="640" height="640" alt="Обложка" src="https://github.com/user-attachments/assets/df1099b4-9bee-4416-9683-c8bbc7403bed" />

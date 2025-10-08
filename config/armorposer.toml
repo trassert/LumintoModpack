@@ -3,4 +3,5 @@ enableConfigGui = true
 enableNameTags = true
 allowScrolling = true
 restrictResizeToOP = false
+nameBasedFeatures = false
 resizeWhitelist = []
