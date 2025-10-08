@@ -155,7 +155,7 @@ key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:0.6274834437086093
-soundCategory_music:0.20422535211267606
+soundCategory_music:0.6232394366197183
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
