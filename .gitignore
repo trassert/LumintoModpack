@@ -15,6 +15,7 @@ crash-reports
 cache
 .fabric
 .mixin.out
+.backups
 
 command_history.txt
 servers.dat_old
