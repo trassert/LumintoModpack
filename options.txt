@@ -52,8 +52,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Chat Reporting Helper (1).zip","file/LowOnFire v1.21.8§8.zip","hold-my-items:example_animations","file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","continuity:default","continuity:glass_pane_culling_fix","black_icons","file/Better Lanterns v1.2 - 1.21.7.zip","file/Unique Dark - Lite -1.20.2-1.21.x.zip"]
-incompatibleResourcePacks:["file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip"]
+resourcePacks:["vanilla","fabric","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Chat Reporting Helper (1).zip","file/LowOnFire v1.21.8§8.zip","hold-my-items:example_animations","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","continuity:default","continuity:glass_pane_culling_fix","black_icons","file/Better Lanterns v1.2 - 1.21.7.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/Fancy Crops v1.2.zip","file/Connected Paths v1.3.zip","file/Ray\u0027s Better Sugarcanezip v1.5.4.zip"]
+incompatibleResourcePacks:[]
 lastServer:localhost:25560
 lang:ru_ru
 chatVisibility:0
@@ -62,7 +62,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.40492957746478875
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
