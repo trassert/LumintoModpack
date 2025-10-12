@@ -56,8 +56,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/Unique Dark - Lite -1.20.2-1.21.x.zip","file/Chat Reporting Helper (1).zip","black_icons"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","file/Chat Reporting Helper (1).zip","black_icons","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better Lanterns v1.2 - 1.21.7.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Connected Paths v1.3.zip"]
+incompatibleResourcePacks:["file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better Lanterns v1.2 - 1.21.7.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Connected Paths v1.3.zip"]
 lastServer:localhost:25560
 lang:ru_ru
 chatVisibility:0
@@ -137,6 +137,7 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
+key_key.fabrishot.screenshot:key.keyboard.f9
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
@@ -156,6 +157,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
+key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:0.6274834437086093
 soundCategory_music:0.20422535211267606
 soundCategory_record:1.0
