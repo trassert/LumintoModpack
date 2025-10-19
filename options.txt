@@ -24,7 +24,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:96
-renderDistance:16
+renderDistance:12
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -58,7 +58,7 @@ highContrastBlockOutline:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","file/Chat Reporting Helper (1).zip","black_icons","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better Lanterns v1.2 - 1.21.7.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Connected Paths v1.3.zip"]
 incompatibleResourcePacks:["file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better Lanterns v1.2 - 1.21.7.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Connected Paths v1.3.zip"]
-lastServer:localhost:25560
+lastServer:trassert.ru:25560
 lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
