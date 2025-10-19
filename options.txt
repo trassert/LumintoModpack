@@ -52,7 +52,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","black_icons","continuity:default","continuity:glass_pane_culling_fix","file/Better Lanterns v1.2 - 1.21.7.zip","file/Chat Reporting Helper (1).zip","file/Connected Paths v1.3.zip","file/Fancy Crops v1.3.zip","file/LowOnFire v1.21.8§8.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","hold-my-items:example_animations","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip"]
+resourcePacks:["vanilla","fabric","black_icons","continuity:default","continuity:glass_pane_culling_fix","file/Better Lanterns v1.2 - 1.21.7.zip","file/Chat Reporting Helper (1).zip","file/Connected Paths v1.3.zip","file/Fancy Crops v1.3.zip","file/LowOnFire v1.21.8§8.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","hold-my-items:example_animations","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","holdmyitems","holdmyitems:example_animations"]
 incompatibleResourcePacks:[]
 lastServer:localhost:25560
 lang:ru_ru
@@ -90,7 +90,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
-startedCleanly:true
+startedCleanly:false
 showNowPlayingToast:true
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
