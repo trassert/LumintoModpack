@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.61
 graphicsMode:1
-guiScale:2
+guiScale:3
 maxFps:90
 inactivityFpsLimit:"afk"
 mipmapLevels:4
@@ -24,7 +24,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:96
-renderDistance:12
+renderDistance:15
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -56,8 +56,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/Chat Reporting Helper (1).zip","black_icons","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better Lanterns v1.2 - 1.21.7.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Connected Paths v1.3.zip"]
-incompatibleResourcePacks:["file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better Lanterns v1.2 - 1.21.7.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/Connected Paths v1.3.zip"]
+resourcePacks:["vanilla","fabric","file/Better Lanterns v1.2 - 1.21.7.zip","file/Chat Reporting Helper (1).zip","file/Connected Paths v1.3.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","black_icons"]
+incompatibleResourcePacks:["file/Better Lanterns v1.2 - 1.21.7.zip","file/Connected Paths v1.3.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip"]
 lastServer:trassert.ru:25560
 lang:ru_ru
 chatVisibility:0
@@ -66,7 +66,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.40492957746478875
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -138,6 +138,8 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
+key_key.emotecraft.fastchoose:key.keyboard.b
+key_key.emotecraft.stop:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
