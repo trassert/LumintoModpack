@@ -1,7 +1,7 @@
 {
   "version": 0,
   "exportDirectory": "",
-  "modpackVersion": "1.4.7",
+  "modpackVersion": "1.4.8",
   "emitCurseforge": true,
   "emitModrinth": true,
   "emitModrinthStrict": true,
@@ -91,8 +91,6 @@
     "mods/enchlevel-langpatch-3.1.0.jar",
     "mods/entity_model_features_1.21.6-fabric-3.0.1.jar",
     "mods/entity_texture_features_1.21.6-fabric-7.0.2.jar",
-    "mods/entityculling-fabric-1.8.2-mc1.21.6.jar",
-    "mods/fabric-api-0.134.0+1.21.8.jar",
     "mods/fabric-language-kotlin-1.13.6+kotlin.2.2.20.jar",
     "mods/fabrishot-1.16.2.jar",
     "mods/fast-ip-ping-v1.0.7-mc1.21.6-fabric.jar",
@@ -107,6 +105,7 @@
     "mods/modmenu-15.0.0.jar",
     "mods/moreculling-fabric-1.21.8-1.4.0-beta.2.jar",
     "mods/no-telemetry-1.9.0.jar",
+    "mods/notenoughanimations-fabric-1.10.4.1-mc1.21.8.jar",
     "mods/particle_core-0.2.6+1.21.6.jar",
     "mods/placeholder-api-2.7.2+1.21.8.jar",
     "mods/reeses-sodium-options-fabric-1.8.4+mc1.21.6.jar",
@@ -114,6 +113,7 @@
     "mods/rrls-5.1.10+mc1.21.8-fabric.jar",
     "mods/skinlayers3d-fabric-1.9.2-mc1.21.8.jar",
     "mods/smoothscroll-2.3.0.2+1.21.6.jar",
+    "mods/smoothskies-2.10.9+1.21.8-fabric.jar",
     "mods/sodium-extra-fabric-0.7.0+mc1.21.8.jar",
     "mods/sodium-fabric-0.7.2+mc1.21.8.jar",
     "mods/sound-physics-remastered-fabric-1.21.8-1.5.1.jar",
@@ -121,8 +121,6 @@
     "mods/titlefixer-1.1+1.21.6.jar",
     "mods/twod_projectiles-fabric-1.1.1.jar",
     "mods/vmp-fabric-mc1.21.8-0.2.0+beta.7.207-all.jar",
-    "mods/voicechat-fabric-1.21.8-2.6.5.jar",
-    "mods/voicemessages-fabric-1.0.10-1.21.7.jar",
     "mods/yet_another_config_lib_v3-3.7.1+1.21.6-fabric.jar",
     "resourcepacks/Better Lanterns v1.2 - 1.21.7.zip",
     "resourcepacks/Chat Reporting Helper (1).zip",
@@ -162,9 +160,11 @@
     "config/inventoryprofilesnext/localhost/refillDisabledSlots.txt",
     "config/inventoryprofilesnext/localhost/villager-trading-config-v2.json",
     "config/inventoryprofilesnext/localhost&25560/villager-trading-config-v2.json",
-    "mods/HMI 5.0L3 1.21.6+.jar",
-    "mods/lambdynamiclights-4.8.4+1.21.8.jar",
-    "mods/notenoughanimations-fabric-1.10.4.1-mc1.21.8.jar",
-    "mods/smoothskies-2.10.9+1.21.8-fabric.jar"
+    "mods/entityculling-fabric-1.9.1-mc1.21.8.jar",
+    "mods/fabric-api-0.136.0+1.21.8.jar",
+    "mods/HMI 5.0L4 1.21.6+.jar",
+    "mods/lambdynamiclights-4.8.5+1.21.8.jar",
+    "mods/voicechat-fabric-1.21.8-2.6.6.jar",
+    "mods/voicemessages-fabric-1.0.11-1.21.7.jar"
   ]
 }

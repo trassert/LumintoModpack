@@ -13,9 +13,13 @@ libraries
 versions
 crash-reports
 cache
+resourcify-temp
+data
+
 .fabric
 .mixin.out
 .backups
+.cache
 
 command_history.txt
 servers.dat_old
