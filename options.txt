@@ -24,7 +24,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:96
-renderDistance:15
+renderDistance:2
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -56,9 +56,9 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/Better Lanterns v1.2 - 1.21.7.zip","file/Chat Reporting Helper (1).zip","file/Connected Paths v1.3.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","black_icons"]
-incompatibleResourcePacks:["file/Better Lanterns v1.2 - 1.21.7.zip","file/Connected Paths v1.3.zip","file/Fancy Crops v1.2.zip","file/LowOnFire v1.21.8§8.zip","file/Undopia_3D_Sugar_Cane_1.21.7_v.1.0.zip","file/VanillaTweaks_r167562_MC1.21.x.zip","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip"]
-lastServer:trassert.ru:25560
+resourcePacks:["vanilla","fabric","black_icons","file/Chat Reporting Helper (1).zip","file/Fancy Crops v1.3.zip","file/LowOnFire v1.21.9§8.zip","file/Unique Dark - Lite - 1.20.2-1.21.x (1).zip","file/vanilla-cnt-0.2.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.9.zip","file/simple-3d-chain.zip","file/3D Default 1.21.2+ v1.13.0.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Better Lanterns v1.3.1 - 1.21.9+1.21.10.zip"]
+incompatibleResourcePacks:[]
+lastServer:localhost:25560
 lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
@@ -97,7 +97,7 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
 startedCleanly:true
-showNowPlayingToast:true
+showNowPlayingToast:false
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
@@ -138,6 +138,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
+key_chunksfadein.keybinds.toggleMod:key.keyboard.unknown
 key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
