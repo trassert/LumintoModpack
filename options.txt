@@ -1,4 +1,5 @@
 version:4556
+betterBiomeBlendRadius:14
 ao:true
 biomeBlendRadius:2
 enableVsync:false
@@ -15,8 +16,8 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.61
 graphicsMode:1
-guiScale:3
-maxFps:90
+guiScale:2
+maxFps:260
 inactivityFpsLimit:"afk"
 mipmapLevels:4
 narrator:0
@@ -24,7 +25,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:96
-renderDistance:2
+renderDistance:11
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -74,7 +75,7 @@ chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.25
 chatScale:1.0
-chatWidth:0.7535211267605634
+chatWidth:0.9295774647887324
 notificationDisplayTime:1.0
 useNativeTransport:true
 mainHand:"right"
@@ -144,7 +145,7 @@ key_key.emotecraft.stop:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_key.push_to_talk:key.keyboard.unknown
+key_key.push_to_talk:key.keyboard.x
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
 key_key.disable_voice_chat:key.keyboard.n
@@ -161,7 +162,7 @@ key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-soundCategory_master:0.6274834437086093
+soundCategory_master:0.5049668874172185
 soundCategory_music:0.20422535211267606
 soundCategory_record:1.0
 soundCategory_weather:1.0

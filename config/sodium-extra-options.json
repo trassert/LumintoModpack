@@ -127,7 +127,8 @@
       "minecraft:vibration": true,
       "minecraft:falling_dripstone_lava": true,
       "minecraft:dripping_dripstone_lava": true,
-      "minecraft:firework": true
+      "minecraft:firework": true,
+      "minecraft:copper_fire_flame": true
     }
   },
   "detail_settings": {
