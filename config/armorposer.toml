@@ -5,3 +5,6 @@ allowScrolling = true
 restrictResizeToOP = false
 nameBasedFeatures = false
 resizeWhitelist = []
+[client]
+directNametagOnly = false
+nametagRenderDistance = 0

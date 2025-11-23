@@ -57,7 +57,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","black_icons","file/Chat Reporting Helper (1).zip","file/Fancy Crops v1.3.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Low Shield.zip","file/LowOnFire v1.21.9§8.zip","file/SodiumTranslations.zip","file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/vanilla-cnt-0.2.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/blocky-pointed-dripstone.zip","file/blocky-rails.zip","file/simple-3d-chain.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.9.zip","file/Better Lanterns v1.3.1 - 1.21.9+1.21.10.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip"]
+resourcePacks:["vanilla","file/Chat Reporting Helper (1).zip","file/Fancy Crops v1.3.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Low Shield.zip","file/LowOnFire v1.21.9§8.zip","file/SodiumTranslations (1).zip","file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/vanilla-cnt-0.2.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/blocky-pointed-dripstone (1).zip","file/blocky-rails.zip","file/simple-3d-chain.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.9.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/§3Fresh §bFlower Pots.zip","fabric","black_icons","file/Better Lanterns v1.3.1 - 1.21.9+1.21.10.zip"]
 incompatibleResourcePacks:[]
 lastServer:dhme.xyz:36016
 lang:ru_ru
