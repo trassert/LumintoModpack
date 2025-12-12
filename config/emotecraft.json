@@ -15,8 +15,8 @@
   "stopthreshold": 0.04,
   "yratio": 0.75,
   "showHiddenConfig": false,
-  "dark": false,
   "oldChooseWheel": false,
+  "showIconsIfPossible": false,
   "fastmenu": {
     "0": {
       "0": "01a53a42-2fd2-418c-8e46-e4ee1ff9ee6a",
@@ -27,6 +27,16 @@
       "5": "f9f6669d-f1b3-4170-8bc5-475a9a600439",
       "6": "87e8adf4-0000-0000-0000-000000000000",
       "7": "0de63fbe-2f20-44e0-8969-479b76ceeb6b"
+    },
+    "1": {
+      "0": "0003d3fc-45c0-61b6-0007-b66baa541580",
+      "1": "000384a2-2e61-0784-0007-32fa6f6c0c6a",
+      "2": "0003a3d0-502c-be9a-0007-6612b78ac12c",
+      "3": "0003cb77-1b36-9dc6-0007-a7dc8686bdb0",
+      "4": "0003bd89-0b9f-3612-0007-8c68a51a0d94",
+      "5": "0003d1dc-e042-fd7a-0007-b2bd30b855cc",
+      "6": "00038034-3007-7882-0007-27f7f20c00e4",
+      "7": "0003921d-7f2e-71bd-0007-4659b2ed7055"
     }
   },
   "keys": {}
