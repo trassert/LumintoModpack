@@ -1,14 +1,13 @@
 .fabric
+.index
+.packignore
+
 coremods
 data
 defaultconfigs
 downloads
 emotes
 logs
-
-mods/.index
-resourcepacks/.index
-shaderpacks/.index
 
 saves
 screenshots
@@ -17,3 +16,7 @@ texturepacks
 
 command_history.txt
 servers.dat_old
+instance.cfg
+mmc-pack.json
+overrides.txt
+modrinth_lumintomods.webp

@@ -13,11 +13,10 @@ jobs:
       - name: Build .mrpack
         run: |
           mkdir -p build/overrides
-          
-          cp -r mods config resourcepacks shaderpacks options.txt servers.dat build/overrides/ 2>/dev/null || true
-          
-          echo '{"formatVersion":1,"game":"minecraft","versionId":"1.7.9","name":"Luminto Pack","dependencies":{"minecraft":"1.21.10"},"files":[]}' > build/modrinth.index.json
-          
+          cp -r minecraft/config build/overrides
+          cp minecraft/options.txt build/overrides/options.txt
+          cp minecraft/servers.dat build/overrides/servers.dat
+          cp mrpack/modrinth.index.json build/modrinth.index.json
           cd build && zip -r ../LumintoPack.mrpack .
 
       - name: Publish
@@ -26,8 +25,8 @@ jobs:
           modrinth-id: lumintomods
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           files: LumintoPack.mrpack
-          name: "Luminto Pack 1.7.9"
-          version: "1.7.9"
+          name: "Luminto Modpack"
+          version: "1.21.10-1"
           version-type: release
           changelog: "Автообновление сборки"
           loaders: fabric
