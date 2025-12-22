@@ -1,12 +1,12 @@
 {
     "formatVersion": 1,
     "game": "minecraft",
-    "versionId": "1.7.4",
-    "name": "Luminto 1.21.10",
+    "versionId": "1.21.10-2",
+    "name": "Luminto",
     "summary": "Рекомендуемая сборка для игры на Luminto",
     "dependencies": {
         "minecraft": "1.21.10",
-        "fabric-loader": "0.18.2"
+        "fabric-loader": "0.18.3"
     },
     "files": [
         {

@@ -26,7 +26,7 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           files: LumintoPack.mrpack
           name: "Luminto Modpack"
-          version: "1.21.10-1"
+          version: "1.21.10-2"
           version-type: release
           changelog: "Автообновление сборки"
           loaders: fabric
