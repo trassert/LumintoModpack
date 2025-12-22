@@ -22,12 +22,12 @@ jobs:
       - name: Publish to Modrinth
         uses: kir-antipov/mc-publish@v3.3
         with:
-          modrinth-id: ${{ secrets.MODRINTH_TOKEN }}
-          modrinth-project: lumintomods
+          modrinth-id: lumintomods
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           files: modpack.zip
           name: "Luminto Pack 1.7.9"
           version: "1.7.9"
           version-type: release
-          loaders: fabric
-          game-versions: 1.21.1
           changelog: "Автообновление сборки"
+          loaders: fabric
+          game-versions: 1.21.1 
