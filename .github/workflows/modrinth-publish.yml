@@ -10,23 +10,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Create modpack
+      - name: Build .mrpack
         run: |
-          sudo apt-get update && sudo apt-get install -y zip
-          zip -r LumintoPack.mrpack mods/ config/ resourcepacks/ shaderpacks/ options.txt servers.dat
+          mkdir -p build/overrides
+          
+          cp -r mods config resourcepacks shaderpacks options.txt servers.dat build/overrides/ 2>/dev/null || true
+          
+          echo '{"formatVersion":1,"game":"minecraft","versionId":"1.7.9","name":"Luminto Pack","dependencies":{"minecraft":"1.21.10"},"files":[]}' > build/modrinth.index.json
+          
+          cd build && zip -r ../LumintoPack.mrpack .
 
-      - name: Publish to Modrinth
+      - name: Publish
         uses: kir-antipov/mc-publish@v3.3
         with:
           modrinth-id: lumintomods
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          
           files: LumintoPack.mrpack
-          
           name: "Luminto Pack 1.7.9"
           version: "1.7.9"
           version-type: release
           changelog: "Автообновление сборки"
-          
           loaders: fabric
           game-versions: 1.21.10
