@@ -1,22 +1,20 @@
+.backups
 .fabric
-.index
-.packignore
 
-coremods
 data
-defaultconfigs
 downloads
 emotes
+libraries
 logs
-
+resourcify-temp
 saves
-screenshots
-server-resource-packs
-texturepacks
+shaderpacks
+versions
 
+authlib-injector.log
 command_history.txt
+instance.json
+instance-lock.json
+modpack-metadata.json
+
 servers.dat_old
-instance.cfg
-mmc-pack.json
-overrides.txt
-modrinth_lumintomods.webp
