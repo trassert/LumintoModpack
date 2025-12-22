@@ -57,7 +57,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Chat Reporting Helper (1).zip","file/Fancy Crops v1.3.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Low Shield.zip","file/LowOnFire v1.21.9§8.zip","file/SodiumTranslations.zip","file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/vanilla-cnt-0.2.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/blocky-pointed-dripstone (1).zip","file/blocky-rails.zip","file/simple-3d-chain.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.9.zip","file/Unique Dark - Lite - 1.20.2-1.21.x (1).zip","file/§3Fresh §bFlower Pots.zip","fabric","black_icons","file/Better Lanterns v1.3.1 - 1.21.9+1.21.10.zip"]
+resourcePacks:["vanilla","file/Fancy Crops v1.3.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Low Shield.zip","file/LowOnFire v1.21.9§8.zip","file/SodiumTranslations.zip","file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/vanilla-cnt-0.2.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/blocky-pointed-dripstone (1).zip","file/blocky-rails.zip","file/simple-3d-chain.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.9.zip","file/Unique Dark - Lite - 1.20.2-1.21.x (1).zip","file/§3Fresh §bFlower Pots.zip","fabric","black_icons","file/Better Lanterns v1.3.1 - 1.21.9+1.21.10.zip","file/Chat Reporting Helper.zip"]
 incompatibleResourcePacks:[]
 lastServer:localhost:25564
 lang:ru_ru
@@ -67,7 +67,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.40492957746478875
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -136,32 +136,6 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_vivecraft.key.rotateLeft:key.keyboard.unknown
-key_vivecraft.key.rotateRight:key.keyboard.unknown
-key_vivecraft.key.teleport:key.keyboard.unknown
-key_vivecraft.key.teleportFallback:key.keyboard.unknown
-key_vivecraft.key.toggleMovement:key.keyboard.unknown
-key_vivecraft.key.quickTorch:key.keyboard.unknown
-key_vivecraft.key.swapMirrorView:key.keyboard.unknown
-key_vivecraft.key.exportWorld:key.keyboard.unknown
-key_vivecraft.key.moveThirdPersonCam:key.keyboard.unknown
-key_vivecraft.key.togglePlayerList:key.keyboard.unknown
-key_vivecraft.key.toggleHandheldCam:key.keyboard.unknown
-key_vivecraft.key.quickHandheldCam:key.keyboard.unknown
-key_vivecraft.key.toggleKeyboard:key.keyboard.unknown
-key_vivecraft.key.quickcommand1:key.keyboard.unknown
-key_vivecraft.key.quickcommand2:key.keyboard.unknown
-key_vivecraft.key.quickcommand3:key.keyboard.unknown
-key_vivecraft.key.quickcommand4:key.keyboard.unknown
-key_vivecraft.key.quickcommand5:key.keyboard.unknown
-key_vivecraft.key.quickcommand6:key.keyboard.unknown
-key_vivecraft.key.quickcommand7:key.keyboard.unknown
-key_vivecraft.key.quickcommand8:key.keyboard.unknown
-key_vivecraft.key.quickcommand9:key.keyboard.unknown
-key_vivecraft.key.quickcommand10:key.keyboard.unknown
-key_vivecraft.key.quickcommand11:key.keyboard.unknown
-key_vivecraft.key.quickcommand12:key.keyboard.unknown
-key_vivecraft.key.toggleWalkUp:key.keyboard.unknown
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9

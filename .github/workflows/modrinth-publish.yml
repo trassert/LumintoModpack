@@ -1,0 +1,22 @@
+name: Publish to Modrinth
+
+on:
+  push:
+    branches: [ 1.21.10 ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install modrinth-autoupdate
+        run: pip install modrinth-autoupdate
+
+      - name: Publish to Modrinth
+        run: modrinth-autoupdate --token ${{ secrets.MODRINTH_TOKEN }}
