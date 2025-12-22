@@ -19,21 +19,10 @@ jobs:
             mods/ config/ resourcepacks/ shaderpacks/ \
             options.txt server.dat
 
-      - name: Publish via Modrinth API
-        run: |
-          curl -X POST https://api.modrinth.com/v2/version \
-            -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
-            -H "Content-Type: multipart/form-data; boundary=----boundary" \
-            --data-binary @- <<EOF
-------boundary
-Content-Disposition: form-data; name="data"
-Content-Type: application/json
+      - name: Make script executable
+        run: chmod +x .github/scripts/publish.sh
 
-$(cat modrinth.mod.json)
-------boundary
-Content-Disposition: form-data; name="file"; filename="modpack.mrpack"
-Content-Type: application/x-modrinth-modpack
-
-$(cat modpack.zip)
-------boundary--
-EOF
+      - name: Publish to Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: .github/scripts/publish.sh
