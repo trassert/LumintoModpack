@@ -1,24 +1,14 @@
 {
-    "name": "Luminto Pack",
-    "version": "1.7.9",
-    "project_id": "lumintomods",
+    "name": "Luminto Pack 1.7.9",
+    "version_number": "1.7.9", 
+    "project_id": "7ZUXj0kT",
     "changelog": "Автообновление сборки",
-    "dependencies": {
-        "minecraft": "1.21.10",
-        "fabric-loader": "0.18.3"
-    },
     "game_versions": [
-        "1.21.10"
+        "1.21.10" 
     ],
+    "version_type": "release",
     "loaders": [
         "fabric"
     ],
-    "files": [
-        "mods",
-        "config",
-        "resourcepacks",
-        "shaderpacks",
-        "options.txt",
-        "servers.dat"
-    ]
+    "featured": true
 }

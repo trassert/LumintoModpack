@@ -19,10 +19,15 @@ jobs:
             mods/ config/ resourcepacks/ shaderpacks/ \
             options.txt servers.dat
 
-      - name: Make script executable
-        run: chmod +x .github/scripts/publish.sh
-
       - name: Publish to Modrinth
-        env:
-          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-        run: .github/scripts/publish.sh
+        uses: kir-antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-project: lumintomods
+          files: modpack.zip
+          name: "Luminto Pack 1.7.9"
+          version: "1.7.9"
+          version-type: release
+          loaders: fabric
+          game-versions: 1.21.1
+          changelog: "Автообновление сборки"
