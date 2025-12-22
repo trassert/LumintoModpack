@@ -17,7 +17,7 @@ jobs:
         run: |
           zip -r modpack.zip \
             mods/ config/ resourcepacks/ shaderpacks/ \
-            options.txt server.dat
+            options.txt servers.dat
 
       - name: Make script executable
         run: chmod +x .github/scripts/publish.sh
