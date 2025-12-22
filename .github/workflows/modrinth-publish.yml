@@ -10,13 +10,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      - name: Install zip
+        run: sudo apt-get update && sudo apt-get install -y zip
 
-      - name: Install Modrinth CLI
-        run: npm install -g @modrinth/cli
+      - name: Create modpack.zip
+        run: |
+          zip -r modpack.zip \
+            mods/ config/ resourcepacks/ shaderpacks/ \
+            options.txt server.dat
 
-      - name: Publish modpack
-        run: modrinth version create --token ${{ secrets.MODRINTH_TOKEN }}
+      - name: Publish via Modrinth API
+        run: |
+          curl -X POST https://api.modrinth.com/v2/version \
+            -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
+            -H "Content-Type: multipart/form-data; boundary=----boundary" \
+            --data-binary @- <<EOF
+------boundary
+Content-Disposition: form-data; name="data"
+Content-Type: application/json
+
+$(cat modrinth.mod.json)
+------boundary
+Content-Disposition: form-data; name="file"; filename="modpack.mrpack"
+Content-Type: application/x-modrinth-modpack
+
+$(cat modpack.zip)
+------boundary--
+EOF
