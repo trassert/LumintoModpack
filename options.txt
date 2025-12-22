@@ -1,7 +1,8 @@
-version:4556
-betterBiomeBlendRadius:14
+version:4671
 ao:true
 biomeBlendRadius:2
+chunkSectionFadeInTime:0.75
+cutoutLeaves:true
 enableVsync:false
 entityDistanceScaling:1.0
 entityShadows:true
@@ -12,12 +13,15 @@ fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
+graphicsPreset:"custom"
 prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.61
-graphicsMode:1
 guiScale:2
+maxAnisotropyBit:2
+textureFiltering:0
 maxFps:90
+improvedTransparency:false
 inactivityFpsLimit:"afk"
 mipmapLevels:4
 narrator:0
@@ -29,6 +33,8 @@ renderDistance:18
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
+vignette:true
+weatherRadius:10
 autoJump:false
 rotateWithMinecart:false
 operatorItemsTab:false
@@ -57,8 +63,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Fancy Crops v1.3.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Low Shield.zip","file/LowOnFire v1.21.9§8.zip","file/SodiumTranslations (1).zip","file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/vanilla-cnt-0.2.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/blocky-pointed-dripstone (1).zip","file/blocky-rails.zip","file/simple-3d-chain.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.9.zip","file/Unique Dark - Lite - 1.20.2-1.21.x (1).zip","file/§3Fresh §bFlower Pots (1).zip","fabric","black_icons","file/Better Lanterns v1.3.1 - 1.21.9+1.21.10.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","file/Fancy Crops v1.3.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/SodiumTranslations (1).zip","file/vanilla-cnt-0.2.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Unique Dark - Lite - 1.20.2-1.21.x (1).zip","file/§3Fresh §bFlower Pots (1).zip","black_icons","file/Chat Reporting Helper.zip","file/Low Shield (1).zip","file/LowOnFire v1.21.11§8.zip","file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.11.zip","file/Better Lanterns v1.3.1 - 1.21.11.zip"]
+incompatibleResourcePacks:["file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip"]
 lastServer:localhost:25564
 lang:ru_ru
 chatVisibility:0
@@ -98,7 +104,7 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
 startedCleanly:true
-showNowPlayingToast:false
+musicToast:"never"
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
@@ -116,6 +122,8 @@ key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
+key_key.toggleGui:key.keyboard.f1
+key_key.toggleSpectatorShaderEffects:key.keyboard.f4
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -127,6 +135,8 @@ key_key.saveToolbarActivator:key.keyboard.z
 key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
 key_key.quickActions:key.keyboard.g
+key_key.debug.overlay:key.keyboard.f3
+key_key.debug.modifier:key.keyboard.f3
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
 key_key.hotbar.3:key.keyboard.3
@@ -136,6 +146,25 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.debug.reloadChunk:key.keyboard.a
+key_key.debug.showHitboxes:key.keyboard.b
+key_key.debug.clearChat:key.keyboard.d
+key_key.debug.crash:key.keyboard.c
+key_key.debug.showChunkBorders:key.keyboard.g
+key_key.debug.showAdvancedTooltips:key.keyboard.h
+key_key.debug.copyRecreateCommand:key.keyboard.i
+key_key.debug.spectate:key.keyboard.n
+key_key.debug.switchGameMode:key.keyboard.f4
+key_key.debug.debugOptions:key.keyboard.f6
+key_key.debug.focusPause:key.keyboard.p
+key_key.debug.dumpDynamicTextures:key.keyboard.s
+key_key.debug.reloadResourcePacks:key.keyboard.t
+key_key.debug.profiling:key.keyboard.l
+key_key.debug.copyLocation:key.keyboard.c
+key_key.debug.dumpVersion:key.keyboard.v
+key_key.debug.profilingChart:key.keyboard.1
+key_key.debug.fpsCharts:key.keyboard.2
+key_key.debug.networkCharts:key.keyboard.3
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
@@ -145,6 +174,9 @@ key_key.emotecraft.stop:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_key.presencefootsteps.settings:key.keyboard.f10
+key_key.presencefootsteps.toggle:key.keyboard.unknown
+key_key.presencefootsteps.debug_toggle:key.keyboard.z
 key_substrate.toggle:key.keyboard.r
 key_key.push_to_talk:key.keyboard.x
 key_key.whisper:key.keyboard.unknown
