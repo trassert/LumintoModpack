@@ -10,13 +10,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.12'
+          node-version: 20
 
-      - name: Install modrinth-autoupdate
-        run: pip install modrinth-autoupdate
+      - name: Install Modrinth CLI
+        run: npm install -g @modrinth/cli
 
-      - name: Publish to Modrinth
-        run: modrinth-autoupdate --token ${{ secrets.MODRINTH_TOKEN }}
+      - name: Publish modpack
+        run: modrinth version create --token ${{ secrets.MODRINTH_TOKEN }}
