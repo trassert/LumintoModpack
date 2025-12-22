@@ -1,5 +1,6 @@
 .backups
 .fabric
+.packignore
 
 data
 downloads
@@ -16,5 +17,6 @@ command_history.txt
 instance.json
 instance-lock.json
 modpack-metadata.json
+xmcl.json
 
 servers.dat_old
