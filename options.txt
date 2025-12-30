@@ -8,7 +8,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:1.0
+fov:0.5
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -16,7 +16,7 @@ glintStrength:0.75
 graphicsPreset:"custom"
 prioritizeChunkUpdates:0
 fullscreen:false
-gamma:0.61
+gamma:0.5
 guiScale:2
 maxAnisotropyBit:2
 textureFiltering:0
@@ -29,7 +29,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:96
-renderDistance:18
+renderDistance:15
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -63,9 +63,9 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Fancy Crops v1.3.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/SodiumTranslations (1).zip","file/vanilla-cnt-0.2.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Unique Dark - Lite - 1.20.2-1.21.x (1).zip","file/§3Fresh §bFlower Pots (1).zip","black_icons","file/Chat Reporting Helper.zip","file/Low Shield (1).zip","file/LowOnFire v1.21.11§8.zip","file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.11.zip","file/Better Lanterns v1.3.1 - 1.21.11.zip"]
-incompatibleResourcePacks:["file/Undopia_3D_Sugar_Cane_1.21.9-10_v.1.0.zip","file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip"]
-lastServer:localhost:25564
+resourcePacks:["vanilla","file/Fancy Crops v1.3.zip","file/SodiumTranslations.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/§3Fresh §bFlower Pots (1).zip","black_icons","file/Chat Reporting Helper.zip","file/Low Shield (1).zip","file/LowOnFire v1.21.11§8.zip","file/Undopia_3D_Sugar_Cane_1.21.11_v.1.0.zip","file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.11.zip","holdmyitems:pack_test","file/macebut3d-1.0.0.zip","continuity:default","continuity:glass_pane_culling_fix","file/Hold My Tasty Items 1.21.(9-11).zip","file/Better Lanterns v1.3.1 - 1.21.11.zip","file/Connected-Paths 1.21.9+ v2.0.zip","file/Connected-Bricks 1.21.9+ v1.0.zip","file/Connected-Rocks 1.21.9+ v1.0.zip"]
+incompatibleResourcePacks:["file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip","file/macebut3d-1.0.0.zip"]
+lastServer:localhost:25552
 lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
