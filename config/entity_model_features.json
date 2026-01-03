@@ -25,5 +25,6 @@
   "enforceOptiFineAnimSyntaxLimits": true,
   "allowOptifineFallbackProperties": true,
   "showReloadErrorToast": true,
-  "armorCopiesAnimationsHack": true
+  "armorCopiesAnimationsHack": true,
+  "exportRotations": false
 }
