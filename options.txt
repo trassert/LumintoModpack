@@ -15,7 +15,7 @@ glintSpeed:0.5
 glintStrength:0.75
 graphicsPreset:"custom"
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:0.5
 guiScale:2
 maxAnisotropyBit:2
@@ -63,8 +63,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Fancy Crops v1.3.zip","file/SodiumTranslations (1).zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/§3Fresh §bFlower Pots (1).zip","black_icons","file/Chat Reporting Helper.zip","file/Low Shield (1).zip","file/LowOnFire v1.21.11§8.zip","file/Undopia_3D_Sugar_Cane_1.21.11_v.1.0.zip","file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.11.zip","holdmyitems:pack_test","file/macebut3d-1.0.0.zip","continuity:default","continuity:glass_pane_culling_fix","file/Hold My Tasty Items 1.21.(9-11).zip","file/Connected-Paths 1.21.9+ v2.1.1.zip","file/Connected-Bricks 1.21.9+ v1.0.zip","file/Connected-Rocks 1.21.9+ v1.1.1.zip","file/Better Lanterns v1.3.1 - 1.21.11.zip"]
-incompatibleResourcePacks:["file/blocky-pointed-dripstone (1).zip","file/simple-3d-chain.zip","file/blocky-rails.zip","file/macebut3d-1.0.0.zip"]
+resourcePacks:["vanilla","file/Fancy Crops v1.3.zip","file/SodiumTranslations.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","black_icons","file/LowOnFire v1.21.11§8.zip","file/§l3D§f+Ladders+v1.2.1 - 1.21.11.zip","holdmyitems:pack_test","file/macebut3d-1.0.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/Hold My Tasty Items 1.21.(9-11).zip","file/Connected-Paths 1.21.9+ v2.1.1.zip","file/Connected-Bricks 1.21.9+ v1.0.zip","file/Connected-Rocks 1.21.9+ v1.1.1.zip","file/Undopia_3D_Sugar_Cane_1.21.11_v.1.0.zip","file/Undopia_3D_Pointed_Dripstone_1.21.11_v.1.0.zip","file/Undopia_3D_Rails_1.21.11_v.1.0.zip","file/Low Shield.zip","file/Chat Reporting Helper.zip","file/§3Fresh §bFlower Pots.zip","file/Better Lanterns v1.3.1 - 1.21.11.zip","file/cubic-sun-moon-v1.8.5.zip"]
+incompatibleResourcePacks:[]
 lastServer:localhost:25552
 lang:ru_ru
 chatVisibility:0
