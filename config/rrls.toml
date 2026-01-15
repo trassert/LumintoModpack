@@ -9,7 +9,7 @@
 	#Allowed Values: PROGRESS, TEXT, TEXT_WITH_BACKGROUND, NONE
 	type = "PROGRESS"
 	rgbProgress = false
-	reloadText = "Edit in config!"
+	reloadText = "Перезагрузка ресурспаков!"
 	animationSpeed = 1000.0
 
 [interpolation]

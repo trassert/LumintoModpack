@@ -58,10 +58,12 @@
     "create:carriage_contraption",
     "minecraft:pale_oak_chest_boat",
     "minecraft:bamboo_chest_raft",
-    "minecraft:mangrove_chest_boat"
+    "minecraft:mangrove_chest_boat",
+    "voidscape:corrupted_pawn"
   ],
   "disableF3": false,
   "skipEntityCulling": false,
   "skipBlockEntityCulling": false,
-  "blockEntityFrustumCulling": true
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": false
 }

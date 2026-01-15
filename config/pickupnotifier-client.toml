@@ -41,7 +41,7 @@
 	#Scale of entries. A lower scale will make room for more rows to show. Works together with "GUI Scale" option in "Video Settings".
 	# Default: 4
 	# Range: 1 ~ 24
-	display_scale = 5
+	display_scale = 4
 
 [general]
 	#Disable specific items or content from whole mods from showing.

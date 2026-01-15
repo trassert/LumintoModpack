@@ -1,5 +1,3 @@
 {
-  "signingModes": {
-    "localhost:25565": "NEVER"
-  }
+  "signingModes": {}
 }

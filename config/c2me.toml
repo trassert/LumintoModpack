@@ -68,9 +68,6 @@ globalExecutorParallelism = "default"
 	# Requires Fabric API (currently available)
 	# 
 	enableExtRenderDistanceProtocol = "default"
-	# (Default: false) Whether to ensure correct chunks within normal render distance 
-	#  This will send chunks twice increasing network load
-	ensureChunkCorrectness = "default"
 	# (Default: true) Whether to attempt to smooth out chunk sending rate
 	# 
 	# Due to the nature of chunk loading and generation, chunks reach full status in bursts,
@@ -78,6 +75,9 @@ globalExecutorParallelism = "default"
 	# This config attempts to smooth out the bursty stream of chunks to help frame time stability
 	# 
 	smoothChunkSendingRate = "default"
+	# (Default: false) Whether to ensure correct chunks within normal render distance 
+	#  This will send chunks twice increasing network load
+	ensureChunkCorrectness = "default"
 
 [ioSystem]
 	# (Default: 8192) Soft limit for io worker nbt cache
@@ -92,6 +92,8 @@ globalExecutorParallelism = "default"
 	# Whether to use the fast reduced allocation chunk serializer
 	# (may cause incompatibility with other mods)
 	# 
+	# Set to false for the following reasons: 
+	# Incompatible with architectury@19.0.1 (*) (defined in c2me) 
 	gcFreeChunkSerializer = "default"
 	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"

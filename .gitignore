@@ -1,8 +1,10 @@
 .backups
 .fabric
 .packignore
+.cache
 
 data
+defaultconfigs
 downloads
 emotes
 libraries
