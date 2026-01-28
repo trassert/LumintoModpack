@@ -22,14 +22,14 @@ maxAnisotropyBit:2
 textureFiltering:0
 maxFps:120
 improvedTransparency:false
-inactivityFpsLimit:"afk"
+inactivityFpsLimit:"minimized"
 mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:64
-renderDistance:15
+renderDistance:8
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -63,9 +63,9 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","holdmyitems:pack_test","black_icons","file/Snow Side Texture v2.0 - 1.21.4.zip","file/§dBetter Nether Portal §8[v1.8]§0.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Chat Reporting Helper.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/Fusion Block Transitions v1.0.3 for Minecraft 1.20-1.21.8.zip","file/Fancy Crops v1.3.zip","file/Hold My Tasty Items 1.21.(9-11).zip","file/cubic-sun-moon-v1.8.5.zip","file/LowOnFire v1.21.11§8.zip","file/Low Shield.zip","file/Undopia_3D_Ladder_1.21.11_v.1.0.zip","file/Undopia_3D_Pointed_Dripstone_1.21.11_v.1.0.zip","file/Undopia_3D_Rails_1.21.11_v.1.0.zip","file/Undopia_3D_Sugar_Cane_1.21.11_v.1.0.zip","file/Unique Dark - Lite - 1.20.2-1.21.x.zip","file/macebut3d-1.0.1.zip","file/SodiumTranslations.zip","file/Better Russian [3.1] [1.7.3-1.21.11].zip","file/Better Lanterns v1.3.1 - 1.21.11.zip","server/00000000/7d00a993-0369-39d6-bcd9-b573635e3251"]
+resourcePacks:["vanilla","holdmyitems:pack_test","black_icons","file/Snow Side Texture v2.0 - 1.21.4.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Chat Reporting Helper.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/Fusion Block Transitions v1.0.3 for Minecraft 1.20-1.21.8.zip","file/Fancy Crops v1.3.zip","file/Hold My Tasty Items 1.21.(9-11).zip","file/LowOnFire v1.21.11§8.zip","file/Low Shield.zip","file/Undopia_3D_Ladder_1.21.11_v.1.0.zip","file/Undopia_3D_Pointed_Dripstone_1.21.11_v.1.0.zip","file/Undopia_3D_Rails_1.21.11_v.1.0.zip","file/Undopia_3D_Sugar_Cane_1.21.11_v.1.0.zip","file/macebut3d-1.0.1.zip","file/SodiumTranslations (1).zip","file/Better Russian [3.1] [1.7.3-1.21.11].zip","file/Light Rain.zip","file/Better Lanterns v1.3.1 - 1.21.11.zip","file/Fresh Flowers and Plants 1.3.zip","file/Glowing 3D Buckets.zip","file/Shimmering Amethyst - v1.2.zip","file/Recolourful Containers DARK 3.0.1 (1.19.4+).zip","file/§aDer\u0027s Shaded Font §e16x §27.2 §8(§dA§8).zip","server/00000000/7d00a993-0369-39d6-bcd9-b573635e3251"]
 incompatibleResourcePacks:["file/Snow Side Texture v2.0 - 1.21.4.zip"]
-lastServer:
+lastServer:localhost:25560
 lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
@@ -104,7 +104,7 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
 startedCleanly:true
-musicToast:"never"
+musicToast:"pause_and_toast"
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right

@@ -4,6 +4,7 @@
 .cache
 
 data
+debug
 defaultconfigs
 downloads
 emotes
@@ -24,3 +25,6 @@ modpack-metadata.json
 xmcl.json
 
 servers.dat_old
+usercache.json
+
+config/inventoryprofilesnext
