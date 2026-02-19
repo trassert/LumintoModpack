@@ -4,8 +4,7 @@
   "quark": false,
   "closeWheelType": "PRESS",
   "enableWheelKeyboardNav": true,
-  "perspective": true,
-  "default3rdPersonFront": false,
+  "cameraType": "THIRD_PERSON_FRONT",
   "alwaysOpenScreen": false,
   "validate": false,
   "validationThreshold": 8.0,
@@ -19,6 +18,17 @@
   "showHiddenConfig": false,
   "oldChooseWheel": false,
   "showIconsIfPossible": false,
-  "fastmenu": {},
+  "fastmenu": {
+    "0": {
+      "0": "01a53a42-2fd2-418c-8e46-e4ee1ff9ee6a",
+      "1": "ffdcfa49-0000-0000-0000-000000000000",
+      "2": "33b912f8-0aa0-45e6-a2d4-9b5677e6f35c",
+      "3": "a2969c42-520f-4c5c-a024-a7d0a2b7b4d1",
+      "4": "ebfb1e69-330a-4970-8bca-f5625c90681a",
+      "5": "3045b335-12ca-4ddb-aca5-0aef450a5e4c",
+      "6": "87e8adf4-0000-0000-0000-000000000000",
+      "7": "96506a5e-a69c-4a18-9add-d43dfd272fa6"
+    }
+  },
   "keys": {}
 }

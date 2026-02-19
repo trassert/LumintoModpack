@@ -1,4 +1,5 @@
 version:4671
+betterBiomeBlendRadius:14
 ao:true
 biomeBlendRadius:2
 chunkSectionFadeInTime:0.5
@@ -15,9 +16,9 @@ glintSpeed:0.5
 glintStrength:0.75
 graphicsPreset:"custom"
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:0.5
-guiScale:0
+guiScale:2
 maxAnisotropyBit:2
 textureFiltering:0
 maxFps:120
@@ -29,13 +30,13 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:64
-renderDistance:8
+renderDistance:10
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
 vignette:true
 weatherRadius:8
-autoJump:false
+autoJump:true
 rotateWithMinecart:false
 operatorItemsTab:true
 autoSuggestions:true
@@ -63,7 +64,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","holdmyitems:pack_test","black_icons","file/Snow Side Texture v2.0 - 1.21.4.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Chat Reporting Helper.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/Fusion Block Transitions v1.0.3 for Minecraft 1.20-1.21.8.zip","file/Fancy Crops v1.3.zip","file/Hold My Tasty Items 1.21.(9-11).zip","file/LowOnFire v1.21.11§8.zip","file/Low Shield.zip","file/Undopia_3D_Ladder_1.21.11_v.1.0.zip","file/Undopia_3D_Pointed_Dripstone_1.21.11_v.1.0.zip","file/Undopia_3D_Rails_1.21.11_v.1.0.zip","file/Undopia_3D_Sugar_Cane_1.21.11_v.1.0.zip","file/macebut3d-1.0.1.zip","file/SodiumTranslations (1).zip","file/Better Russian [3.1] [1.7.3-1.21.11].zip","file/Light Rain.zip","file/Better Lanterns v1.3.1 - 1.21.11.zip","file/Fresh Flowers and Plants 1.3.zip","file/Glowing 3D Buckets.zip","file/Shimmering Amethyst - v1.2.zip","file/Recolourful Containers DARK 3.0.1 (1.19.4+).zip","file/§aDer\u0027s Shaded Font §e16x §27.2 §8(§dA§8).zip","server/00000000/7d00a993-0369-39d6-bcd9-b573635e3251"]
+resourcePacks:["vanilla","holdmyitems:pack_test","file/Snow Side Texture v2.0 - 1.21.4.zip","file/better_flame_particles-v3.1-mc1.21.9+-resourcepack.zip","file/Chat Reporting Helper.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip","file/Fusion Block Transitions v1.0.3 for Minecraft 1.20-1.21.8.zip","file/Fancy Crops v1.3.zip","file/Hold My Tasty Items 1.21.(9-11).zip","file/LowOnFire v1.21.11§8.zip","file/Low Shield.zip","file/Undopia_3D_Ladder_1.21.11_v.1.0.zip","file/Undopia_3D_Pointed_Dripstone_1.21.11_v.1.0.zip","file/Undopia_3D_Rails_1.21.11_v.1.0.zip","file/Undopia_3D_Sugar_Cane_1.21.11_v.1.0.zip","file/macebut3d-1.0.1.zip","file/SodiumTranslations.zip","file/Better Russian [3.1] [1.7.3-1.21.11].zip","file/Better Lanterns v1.3.1 - 1.21.11.zip","file/Fresh Flowers and Plants 1.3.zip","file/Glowing 3D Buckets.zip","file/Shimmering Amethyst - v1.2.zip","file/Recolourful Containers DARK 3.1 (1.19.4+).zip","file/§aDer\u0027s Shaded Font §e16x §2v8 §8(§dA§8).zip","black_icons"]
 incompatibleResourcePacks:["file/Snow Side Texture v2.0 - 1.21.4.zip"]
 lastServer:localhost:25560
 lang:ru_ru
@@ -100,6 +101,7 @@ allowServerListing:true
 onlyShowSecureChat:false
 saveChatDrafts:false
 panoramaScrollSpeed:1.0
+debugifyTelemetry:0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
@@ -167,9 +169,11 @@ key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
-key_key.blackbarconcealer.toggle:key.keyboard.b
+key_key.blackbarconcealer.toggle:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
-key_options.narrator_hotkey:key.keyboard.unknown
+key_key.stfu.narrator_hotkey:key.keyboard.unknown
+key_key.stfu.skip_music:key.keyboard.unknown
+key_key.stfu.toggle_music:key.keyboard.unknown
 key_chunksfadein.keybinds.toggleMod:key.keyboard.unknown
 key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
@@ -180,7 +184,8 @@ key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.presencefootsteps.toggle:key.keyboard.unknown
 key_key.presencefootsteps.debug_toggle:key.keyboard.z
-key_key.push_to_talk:key.keyboard.unknown
+key_substrate.toggle:key.keyboard.r
+key_key.push_to_talk:key.keyboard.x
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
 key_key.disable_voice_chat:key.keyboard.n
@@ -198,7 +203,7 @@ key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.10915492957746478
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

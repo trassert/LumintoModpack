@@ -2,7 +2,9 @@
 .fabric
 .packignore
 .cache
+.mixin.out
 
+crash-reports
 data
 debug
 defaultconfigs
