@@ -5,6 +5,10 @@
 .mixin.out
 
 crash-reports
+cache
+coremods
+config/*
+!config/yosbr
 data
 debug
 defaultconfigs
@@ -18,6 +22,7 @@ shaderpacks
 versions
 stackdeobf_mappings
 screenshots
+mods/.index
 
 authlib-injector.log
 command_history.txt
@@ -25,8 +30,9 @@ instance.json
 instance-lock.json
 modpack-metadata.json
 xmcl.json
+debug-profile.json
 
 servers.dat_old
 usercache.json
-
-config/inventoryprofilesnext
+/options.txt
+/servers.dat
