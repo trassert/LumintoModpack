@@ -1,0 +1,18 @@
+filename = 'Undopia_3D_Rails_1.21.11_v.1.0.zip'
+name = 'Undopia 3D Rails'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = 'c87a891386c0b21f68839df02ba7c08cbbef8e8de885e9012a8407a22198c29741f4626fcf78a6943e022656e718f71dec38cc32d5cada366e8d06adea7a862a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/libxdY2I/versions/TJYM8arB/Undopia_3D_Rails_1.21.11_v.1.0.zip'
+
+[update.modrinth]
+mod-id = 'libxdY2I'
+version = 'TJYM8arB'

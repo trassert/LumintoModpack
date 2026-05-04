@@ -8,7 +8,7 @@ crash-reports
 cache
 coremods
 config/*
-!config/yosbr
+!config/modpack_defaults
 data
 debug
 defaultconfigs
@@ -23,6 +23,7 @@ versions
 stackdeobf_mappings
 screenshots
 mods/.index
+resources/.index
 
 authlib-injector.log
 command_history.txt
@@ -36,3 +37,5 @@ servers.dat_old
 usercache.json
 /options.txt
 /servers.dat
+hotbar.nbt
+/icon.png

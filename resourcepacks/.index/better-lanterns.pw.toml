@@ -1,0 +1,18 @@
+filename = 'Better Lanterns v1.3.1 - 1.21.11.zip'
+name = 'Better Lanterns'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.1-mc1.21.11'
+
+[download]
+hash = 'f6592e7752d54f3d3957ac6e757c714ee2bca2d897c323495e43d06175173eb573153ef709f46754fe21c5c9e304b44a1612fe55a8c1ba974de51c060863790b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PGGrfcvL/versions/CTRXQvvr/Better Lanterns v1.3.1 - 1.21.11.zip'
+
+[update.modrinth]
+mod-id = 'PGGrfcvL'
+version = 'CTRXQvvr'

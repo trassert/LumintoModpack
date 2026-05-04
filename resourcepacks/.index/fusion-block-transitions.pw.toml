@@ -1,0 +1,60 @@
+filename = 'Fusion Block Transitions v1.0.3 for Minecraft 1.20-1.21.8.zip'
+name = 'Fusion Block Transitions'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20',
+    '1.20.1',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3-mc1.20-1.21.11'
+
+[download]
+hash = 'f6901eb70ac14868dc2a151c5df6ed673e43fe2fee1b4929314fe17a1ec4ff864bc39d2b303923b701a3eb1a4bc2bdb311f2f3f6ec44e98f1285ad072d62773a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ajcwQmG4/versions/Mtnn67U3/Fusion Block Transitions v1.0.3 for Minecraft 1.20-1.21.8.zip'
+
+[update.modrinth]
+mod-id = 'ajcwQmG4'
+version = 'Mtnn67U3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'p19vrgc2'
+type = 'REQUIRED'

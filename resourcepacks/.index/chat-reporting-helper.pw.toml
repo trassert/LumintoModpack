@@ -1,0 +1,57 @@
+filename = 'Chat Reporting Helper (1).zip'
+name = 'Chat Reporting Helper'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9',
+    '26.1',
+    '26.1',
+    '26.1.1',
+    '26.1.1'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.1'
+
+[download]
+hash = '0633456077f759f8a3331010c13c96932d4092d1f2d0ee5e72a2e02813a6bf2d85042a3f9a1738645dab755806afc8aa1e432cb9a6931e7cd2c5d4639c9d66b6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tN4E9NfV/versions/vbZ75cEH/Chat Reporting Helper.zip'
+
+[update.modrinth]
+mod-id = 'tN4E9NfV'
+version = 'vbZ75cEH'

@@ -1,0 +1,25 @@
+filename = 'Silly Moves 0.5 Pre Release 1.zip'
+name = 'Silly Moves'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.5.1'
+
+[download]
+hash = '50fa1a79ad3cd98fd4a1c8d5d779b91d48f02580b5914e8216397b12a6e73542061523a81dd31e682c4da710db27d25997fc7deb5ba1071a0005a076078d0fcd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZvQQ1kpY/versions/NHYcRSq2/Silly Moves 0.5 Pre Release 1.zip'
+
+[update.modrinth]
+mod-id = 'ZvQQ1kpY'
+version = 'NHYcRSq2'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4I1XuqiY'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BVzZfTc1'
+type = 'REQUIRED'
