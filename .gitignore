@@ -18,10 +18,14 @@ screenshots
 versions
 resourcify-temp
 debug
+schematics
+rainbow
 
 authlib-injector.log
 command_history.txt
 instance-lock.json
+debug-profile.json
+hotbar.nbt
 instance.json
 options.txt
 servers.dat
