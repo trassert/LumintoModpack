@@ -4,9 +4,10 @@
 .mixin.out
 .voxy
 
-config/*
-!config/defaultoptions
+**/.index/
+/config
 crash-reports
+coremods
 data
 defaultconfigs
 downloads
@@ -19,6 +20,8 @@ versions
 resourcify-temp
 debug
 schematics
+texturepacks
+shaderpacks
 rainbow
 
 authlib-injector.log
@@ -27,8 +30,12 @@ instance-lock.json
 debug-profile.json
 hotbar.nbt
 instance.json
-options.txt
-servers.dat
+/options.txt
+/servers.dat
 usercache.json
 servers.dat_old
 modpack-metadata.json
+hs_err_pid*.log
+icon.png
+
+!configureddefaults
